@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./common/Header";
-import Home from "./Home/Home";
-import CoursesPage from "./Courses/CoursesPage";
-import About from "./About/About";
+import Home from "./Home";
+import CoursesPage from "./Courses";
+import About from "./About";
 import { Route, Switch } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 const App = () => {
